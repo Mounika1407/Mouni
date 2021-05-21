@@ -1,0 +1,16 @@
+1.a=int(input("enter a number"))
+2.b=int(input("enter b number"))
+3.c=int(input("enter c number"))
+4.sum=(a+b+c)
+5.Average=sum/3
+6.print("sum is", sum) 
+7.Print("average is", Average) 
+8.
+9.Output:
+10.enter a number8
+11.enter b number9
+12.enter c number10
+13.sum is 27
+14.average is 9.0
+
+15.Process finished.
