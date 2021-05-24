@@ -1,0 +1,9 @@
+1.a=10
+2.b=20
+3.sum=(a+b) 
+4.print("sum is", sum) 
+
+Output
+5.sum is 30
+
+6.Process finished. 
