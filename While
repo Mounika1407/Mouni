@@ -1,0 +1,19 @@
+a=int(input("enter starting value"))
+n=int(input("enter ending value"))
+inc=int(input("enter incremented value"))
+while a<=n:
+       print(a)
+       a+=inc
+Output:
+enter starting value3
+enter ending value15
+enter incremented value2
+3
+5
+7
+9
+11
+13
+15
+
+Process finished.
