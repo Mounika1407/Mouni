@@ -1,0 +1,22 @@
+i= int(input("enter starting value"))
+n= int(input ("enter ending value"))
+inc=int(input("enter inc value"))
+while i<=n:
+       print(i), 
+       i+=inc
+Output:
+enter starting value5
+enter ending value100
+enter inc value10
+5
+15
+25
+35
+45
+55
+65
+75
+85
+95
+
+Process finished.
