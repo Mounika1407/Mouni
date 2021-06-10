@@ -1,0 +1,20 @@
+a=int(input("enter integer value:")) 
+b=int(input("enter integer value:"))
+c=float(input("enter float value:")) 
+result=a+b
+print(result)
+print("type of result is %s " % type (result)) 
+result = a+b+c
+print("type of expression 2 is %s" % type (result))
+print("expression 2 result is%f" % result)
+
+Output:
+enter integer value:143
+enter integer value:456
+enter float value:143.5
+599
+type of result is <class 'int'> 
+type of expression 2 is <class 'float'>
+expression 2 result is742.500000
+
+Process finished.
