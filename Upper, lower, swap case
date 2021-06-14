@@ -1,0 +1,17 @@
+s="pythoN pRogramminG"
+print("original string %s:" %s)
+res=s.upper()#string into upper
+print("upper case %s is" %res)
+res=s.lower()#string in lower
+print("lower case %s is" %res)
+swap_result=s.swapcase()#PYTHOn PrOGRAMMINg
+print("swap case %s"% swap_result)
+
+Output:
+
+original string pythoN pRogramminG:
+upper case PYTHON PROGRAMMING is
+lower case python programming is
+swap case PYTHOn PrOGRAMMINg
+
+Process finished.
