@@ -1,0 +1,17 @@
+s1="python is very easy "
+res_split=s1.split()#space is separator
+print(res_split)#['python', 'is', 'very', 'easy']
+s2="Iam: cse-c student"
+res_split=s2.split(":")#: is a separator
+print(res_split)#['Iam','cse-c student']
+s3="My fav subject -python "
+res_split=s3.split("-") 
+print(res_split)
+
+Output:
+
+['python', 'is', 'very', 'easy']
+['Iam', ' cse-c student']
+['My fav subject ', 'python ']
+
+Process finished.
