@@ -1,0 +1,20 @@
+list=["cse","IT",1,2,4,"Mech","ECE",456,765,765]
+print("original list") 
+print (list) 
+list.remove("Mech") 
+print("After Modification list of elements") 
+print(list) 
+list. pop(3)
+print (list) 
+list. pop() 
+print(list)
+Output:
+  
+original list
+['cse', 'IT', 1, 2, 4, 'Mech', 'ECE', 456, 765, 765]
+After Modification list of elements
+['cse', 'IT', 1, 2, 4, 'ECE', 456, 765, 765]
+['cse', 'IT', 1, 4, 'ECE', 456, 765, 765]
+['cse', 'IT', 1, 4, 'ECE', 456, 765]
+
+Process finished.
