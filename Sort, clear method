@@ -1,0 +1,12 @@
+num_list=[200,550,400,500,400,450,]
+print(num_list)
+num_list.sort()
+print(num_list)
+num_list.clear()
+print(num_list) 
+Output:
+[200, 550, 400, 500, 400, 450]
+[200, 400, 400, 450, 500, 550]
+[]
+
+Process finished.
