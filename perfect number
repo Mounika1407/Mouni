@@ -1,0 +1,25 @@
+import math
+def isPerfect(n):
+    res=1
+    i=2
+    sq=int(math.sqrt(n))
+    for i in range(2,sq+1):
+        if(n%i==0):
+          res+=i
+          res+=n//i
+    return  res==n
+
+t=int(input("enter no of numbers:"))
+for _ in range(t):
+    n=int(input())
+    res=isPerfect(n)
+    print(res)
+    
+    OUTPUT:
+ enter no of numbers:3
+28
+True
+36
+False
+100
+False
